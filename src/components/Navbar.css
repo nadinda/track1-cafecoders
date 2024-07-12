@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.navbar a img {
+  height: 80px;
+}
+
+.nav-links-container {
+  display: flex;
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+  color: #000;
+  margin: 0 5px;
+  padding: 10px;
+  font-size: 1rem;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.links.active,
+.links:hover {
+  color: #104830;
+  opacity: 1;
+}
