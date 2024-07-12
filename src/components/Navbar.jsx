@@ -1,14 +1,11 @@
 import "./Navbar.css";
+import CafeLogo from "../assets/sipnplay.png";
 
 const Navbar = () => {
   return (
     <nav className="navbar sticky">
       <a href="/">
-        <img
-          src="src/assets/sipnplay.png"
-          type="image/png"
-          alt="sip n play logo"
-        />
+        <img src={CafeLogo} type="image/png" alt="sip n play logo" />
       </a>
       <ul className="nav-links-container">
         <li className="nav-link">
