@@ -1,4 +1,4 @@
-# Codedex Summer Hackathon by Team CafeCoder
+# Codedex Summer Hackathon by Team CafeCoders
 
 Track 1: Website for Sip & Play Board Game Cafe
 
@@ -19,6 +19,6 @@ If the installation was successful, you should see the installed version with th
 ### Running Locally
 
     $ git clone https://github.com/nadinda/track1-cafecoders
-    $ cd wish-genie
+    $ cd track1-cafecoders
     $ npm install
     $ npm run dev
