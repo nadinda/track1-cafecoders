@@ -1,0 +1,70 @@
+/* Container Body */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  height: 50%;
+  background-color: #f5f5f5;
+  max-width: 100%;
+}
+
+/* Image List Styling */
+.container .image-list {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container .image-list img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.container .image-list:hover img {
+  transform: scale(1.05);
+}
+
+.container .image-list p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  transition: background 0.5s ease;
+}
+
+.container .image-list:hover p {
+  background: rgba(0, 0, 0, 0.8);
+}
+.container .image-list p:hover {
+  color: #95ba75;
+}
+
+/*Deck Collections*/
+.deck {
+  width: 300px; /* Adjust width as needed */
+  height: 80px; /* Adjust height as needed */
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px solid;
+  transition: background-color 0.3s ease;
+
+  margin-left: 40%;
+}
+
+.deck:hover {
+  background-color: #95ba75;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
